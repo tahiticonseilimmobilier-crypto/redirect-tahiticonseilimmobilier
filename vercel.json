@@ -1,0 +1,280 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/actualites/vendre-indivision-tahiti",
+      "destination": "https://www.olivierimmopolynesie.com/blog/vendre-indivision-tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/sci-polynesie-francaise-guide-complet",
+      "destination": "https://www.olivierimmopolynesie.com/blog/sci-polynesie-francaise-guide-complet",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/airbnb-tahiti-reglementation-meubles-tourisme",
+      "destination": "https://www.olivierimmopolynesie.com/blog/airbnb-tahiti-reglementation-meubles-tourisme",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/ppr-tahiti-plan-prevention-risques",
+      "destination": "https://www.olivierimmopolynesie.com/blog/ppr-tahiti-plan-prevention-risques",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/construire-sa-maison-tahiti-guide-complet",
+      "destination": "https://www.olivierimmopolynesie.com/blog/construire-sa-maison-tahiti-guide-complet",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/financer-achat-immobilier-tahiti-guide-2026",
+      "destination": "https://www.olivierimmopolynesie.com/blog/financer-achat-immobilier-tahiti-guide-2026",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/acheter-tahiti-depuis-metropole",
+      "destination": "https://www.olivierimmopolynesie.com/blog/acheter-polynesie-metropole",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/frais-notaire-tahiti-guide-complet",
+      "destination": "https://www.olivierimmopolynesie.com/blog/frais-notaire-polynesie-francaise",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/vendre-son-bien-immobilier-tahiti-guide-complet",
+      "destination": "https://www.olivierimmopolynesie.com/blog/comment-vendre-bien-tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/le-marche-immobilier-tahiti-en-2026",
+      "destination": "https://www.olivierimmopolynesie.com/blog/marche-immobilier-tahiti-2026",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/prix-au-m2-par-commune-tahiti-en-2026",
+      "destination": "https://www.olivierimmopolynesie.com/blog/prix-terrain-tahiti-2026",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/gestion-locative-tahiti-confier-son-bien",
+      "destination": "https://www.olivierimmopolynesie.com/gestion-locative-tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/louer-tahiti-guide-complet-2026",
+      "destination": "https://www.olivierimmopolynesie.com/blog/louer-tahiti-guide-complet",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/estimer-terrain-tahiti",
+      "destination": "https://www.olivierimmopolynesie.com/blog/estimer-terrain-tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/estimer-maison-tahiti",
+      "destination": "https://www.olivierimmopolynesie.com/blog/estimer-maison-tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/estimer-appartement-tahiti",
+      "destination": "https://www.olivierimmopolynesie.com/blog/estimer-appartement-tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/:path*",
+      "destination": "https://www.olivierimmopolynesie.com/blog",
+      "permanent": true
+    },
+    {
+      "source": "/actualites",
+      "destination": "https://www.olivierimmopolynesie.com/blog",
+      "permanent": true
+    },
+    {
+      "source": "/location-tahiti-en-polynesie",
+      "destination": "https://www.olivierimmopolynesie.com/louer",
+      "permanent": true
+    },
+    {
+      "source": "/location/:path*",
+      "destination": "https://www.olivierimmopolynesie.com/louer",
+      "permanent": true
+    },
+    {
+      "source": "/locatif",
+      "destination": "https://www.olivierimmopolynesie.com/louer",
+      "permanent": true
+    },
+    {
+      "source": "/achatvente-tahiti-en-polynesie",
+      "destination": "https://www.olivierimmopolynesie.com/acheter",
+      "permanent": true
+    },
+    {
+      "source": "/vente/:path*",
+      "destination": "https://www.olivierimmopolynesie.com/acheter",
+      "permanent": true
+    },
+    {
+      "source": "/immeubles",
+      "destination": "https://www.olivierimmopolynesie.com/acheter",
+      "permanent": true
+    },
+    {
+      "source": "/achat-en-programme-neuf-tahiti-et-en-polynesie",
+      "destination": "https://www.olivierimmopolynesie.com/acheter",
+      "permanent": true
+    },
+    {
+      "source": "/acheter-(.*)",
+      "destination": "https://www.olivierimmopolynesie.com/acheter",
+      "permanent": true
+    },
+    {
+      "source": "/vendre-(.*)",
+      "destination": "https://www.olivierimmopolynesie.com/vendre",
+      "permanent": true
+    },
+    {
+      "source": "/louer-(.*)",
+      "destination": "https://www.olivierimmopolynesie.com/louer",
+      "permanent": true
+    },
+    {
+      "source": "/estimation-(.*)",
+      "destination": "https://www.olivierimmopolynesie.com/estimation-immobiliere-tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/commune/:path*",
+      "destination": "https://www.olivierimmopolynesie.com/biens",
+      "permanent": true
+    },
+    {
+      "source": "/recherche-avancee",
+      "destination": "https://www.olivierimmopolynesie.com/biens",
+      "permanent": true
+    },
+    {
+      "source": "/recherche/:path*",
+      "destination": "https://www.olivierimmopolynesie.com/biens",
+      "permanent": true
+    },
+    {
+      "source": "/recherche",
+      "destination": "https://www.olivierimmopolynesie.com/biens",
+      "permanent": true
+    },
+    {
+      "source": "/bien/:path*",
+      "destination": "https://www.olivierimmopolynesie.com/biens",
+      "permanent": true
+    },
+    {
+      "source": "/le-cabinet/gestion",
+      "destination": "https://www.olivierimmopolynesie.com/gestion-locative-tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/le-cabinet/contact",
+      "destination": "https://www.olivierimmopolynesie.com/contact",
+      "permanent": true
+    },
+    {
+      "source": "/le-cabinet",
+      "destination": "https://www.olivierimmopolynesie.com/a-propos",
+      "permanent": true
+    },
+    {
+      "source": "/estimation",
+      "destination": "https://www.olivierimmopolynesie.com/estimation-immobiliere-tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/expert-immobilier-tahiti",
+      "destination": "https://www.olivierimmopolynesie.com/a-propos",
+      "permanent": true
+    },
+    {
+      "source": "/pourquoi-nous-faire-confiance",
+      "destination": "https://www.olivierimmopolynesie.com/a-propos",
+      "permanent": true
+    },
+    {
+      "source": "/garanties-et-engagements",
+      "destination": "https://www.olivierimmopolynesie.com/a-propos",
+      "permanent": true
+    },
+    {
+      "source": "/conditions-generales-dutilisation",
+      "destination": "https://www.olivierimmopolynesie.com/conditions-generales",
+      "permanent": true
+    },
+    {
+      "source": "/confidentialite",
+      "destination": "https://www.olivierimmopolynesie.com/politique-de-confidentialite",
+      "permanent": true
+    },
+    {
+      "source": "/mentions-legales",
+      "destination": "https://www.olivierimmopolynesie.com/mentions-legales",
+      "permanent": true
+    },
+    {
+      "source": "/olivier-blaise",
+      "destination": "https://www.olivierimmopolynesie.com/a-propos",
+      "permanent": true
+    },
+    {
+      "source": "/user/:path*",
+      "destination": "https://www.olivierimmopolynesie.com/",
+      "permanent": true
+    },
+    {
+      "source": "/user",
+      "destination": "https://www.olivierimmopolynesie.com/",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/actualites/:path*",
+      "destination": "https://www.olivierimmopolynesie.com/blog",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/actualites",
+      "destination": "https://www.olivierimmopolynesie.com/blog",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/bien/:path*",
+      "destination": "https://www.olivierimmopolynesie.com/biens",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/commune/:path*",
+      "destination": "https://www.olivierimmopolynesie.com/biens",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/:path*",
+      "destination": "https://www.olivierimmopolynesie.com/",
+      "permanent": true
+    },
+    {
+      "source": "/index.php",
+      "destination": "https://www.olivierimmopolynesie.com/",
+      "permanent": true
+    },
+    {
+      "source": "/sites/default/files/:path*",
+      "destination": "https://www.olivierimmopolynesie.com/",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://www.olivierimmopolynesie.com/",
+      "permanent": true
+    }
+  ]
+}
