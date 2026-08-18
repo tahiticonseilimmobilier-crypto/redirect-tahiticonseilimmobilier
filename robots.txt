@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tahiticonseilimmobilier.com/sitemap.xml

@@ -272,7 +272,22 @@
       "permanent": true
     },
     {
-      "source": "/(.*)",
+      "source": "/acheter",
+      "destination": "https://www.olivierimmopolynesie.com/acheter",
+      "permanent": true
+    },
+    {
+      "source": "/vendre",
+      "destination": "https://www.olivierimmopolynesie.com/vendre",
+      "permanent": true
+    },
+    {
+      "source": "/louer",
+      "destination": "https://www.olivierimmopolynesie.com/louer",
+      "permanent": true
+    },
+    {
+      "source": "/((?!sitemap\\.xml$|robots\\.txt$).*)",
       "destination": "https://www.olivierimmopolynesie.com/",
       "permanent": true
     }
