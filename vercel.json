@@ -82,6 +82,31 @@
       "permanent": true
     },
     {
+      "source": "/actualites/estimation-immobiliere-tahiti-evaluez-votre-bien-avec-precision-grace-cabinet-levy",
+      "destination": "https://farepolynesie.immo/estimation",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/frais-notaire-achat-immobilier-tahiti-guide-complet-2026",
+      "destination": "https://farepolynesie.immo/conseils/frais-notaire-polynesie-francaise",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/financer-achat-immobilier-tahiti-guide-complet-2026",
+      "destination": "https://farepolynesie.immo/conseils/financer-achat-immobilier-tahiti-guide-2026",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/le-marche-immobilier-tahiti-en-2025",
+      "destination": "https://farepolynesie.immo/conseils/marche-immobilier-tahiti-2026",
+      "permanent": true
+    },
+    {
+      "source": "/actualites/la-gestion-locative-optimisez-votre-investissement",
+      "destination": "https://farepolynesie.immo/conseils/gestion-locative-tahiti",
+      "permanent": true
+    },
+    {
       "source": "/actualites/:path*",
       "destination": "https://farepolynesie.immo/conseils",
       "permanent": true
@@ -108,6 +133,11 @@
     },
     {
       "source": "/achatvente-tahiti-en-polynesie",
+      "destination": "https://farepolynesie.immo/acheter",
+      "permanent": true
+    },
+    {
+      "source": "/achat-vente-tahiti-et-en-polynesie",
       "destination": "https://farepolynesie.immo/acheter",
       "permanent": true
     },
