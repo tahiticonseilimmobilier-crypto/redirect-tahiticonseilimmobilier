@@ -272,6 +272,631 @@
       "permanent": true
     },
     {
+      "source": "/type-bien/appartements",
+      "destination": "https://farepolynesie.immo/type/appartement",
+      "permanent": true
+    },
+    {
+      "source": "/type-bien/maisons-villas",
+      "destination": "https://farepolynesie.immo/type/maison",
+      "permanent": true
+    },
+    {
+      "source": "/type-bien/maison-villas",
+      "destination": "https://farepolynesie.immo/type/maison",
+      "permanent": true
+    },
+    {
+      "source": "/type-bien/terrains",
+      "destination": "https://farepolynesie.immo/type/terrain",
+      "permanent": true
+    },
+    {
+      "source": "/type-bien/immeubles",
+      "destination": "https://farepolynesie.immo/type/immeuble",
+      "permanent": true
+    },
+    {
+      "source": "/type-bien/iles",
+      "destination": "https://farepolynesie.immo/type/ile",
+      "permanent": true
+    },
+    {
+      "source": "/type-bien/hangars-docks-locaux-bureaux-commerces-societes",
+      "destination": "https://farepolynesie.immo/type/local-commercial",
+      "permanent": true
+    },
+    {
+      "source": "/type-bien/entrepots-locaux-bureaux-et-commerces",
+      "destination": "https://farepolynesie.immo/type/local-commercial",
+      "permanent": true
+    },
+    {
+      "source": "/type-bien/hang-societesars-docks-locaux-bureaux-commerces",
+      "destination": "https://farepolynesie.immo/type/local-commercial",
+      "permanent": true
+    },
+    {
+      "source": "/type-bien/:path*",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/zone/tahiti",
+      "destination": "https://farepolynesie.immo/ile/tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/zone/moorea",
+      "destination": "https://farepolynesie.immo/ile/moorea",
+      "permanent": true
+    },
+    {
+      "source": "/zone/bora-bora",
+      "destination": "https://farepolynesie.immo/ile/bora-bora",
+      "permanent": true
+    },
+    {
+      "source": "/zone/raiatea",
+      "destination": "https://farepolynesie.immo/ile/raiatea",
+      "permanent": true
+    },
+    {
+      "source": "/zone/huahine",
+      "destination": "https://farepolynesie.immo/ile/huahine",
+      "permanent": true
+    },
+    {
+      "source": "/zone/:path*",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/commune/arue",
+      "destination": "https://farepolynesie.immo/commune/arue",
+      "permanent": true
+    },
+    {
+      "source": "/commune/faaa",
+      "destination": "https://farepolynesie.immo/commune/faaa",
+      "permanent": true
+    },
+    {
+      "source": "/commune/mahina",
+      "destination": "https://farepolynesie.immo/commune/mahina",
+      "permanent": true
+    },
+    {
+      "source": "/commune/paea",
+      "destination": "https://farepolynesie.immo/commune/paea",
+      "permanent": true
+    },
+    {
+      "source": "/commune/papara",
+      "destination": "https://farepolynesie.immo/commune/papara",
+      "permanent": true
+    },
+    {
+      "source": "/commune/papeete",
+      "destination": "https://farepolynesie.immo/commune/papeete",
+      "permanent": true
+    },
+    {
+      "source": "/commune/papenoo",
+      "destination": "https://farepolynesie.immo/commune/papenoo",
+      "permanent": true
+    },
+    {
+      "source": "/commune/pirae",
+      "destination": "https://farepolynesie.immo/commune/pirae",
+      "permanent": true
+    },
+    {
+      "source": "/commune/punaauia",
+      "destination": "https://farepolynesie.immo/commune/punaauia",
+      "permanent": true
+    },
+    {
+      "source": "/commune/mataiea",
+      "destination": "https://farepolynesie.immo/commune/mataiea",
+      "permanent": true
+    },
+    {
+      "source": "/commune/taravao",
+      "destination": "https://farepolynesie.immo/commune/taravao",
+      "permanent": true
+    },
+    {
+      "source": "/commune/tiarei",
+      "destination": "https://farepolynesie.immo/commune/tiarei",
+      "permanent": true
+    },
+    {
+      "source": "/commune/faaone",
+      "destination": "https://farepolynesie.immo/commune/faaone",
+      "permanent": true
+    },
+    {
+      "source": "/commune/moorea",
+      "destination": "https://farepolynesie.immo/ile/moorea",
+      "permanent": true
+    },
+    {
+      "source": "/commune/bora-bora",
+      "destination": "https://farepolynesie.immo/ile/bora-bora",
+      "permanent": true
+    },
+    {
+      "source": "/commune/raiatea",
+      "destination": "https://farepolynesie.immo/ile/raiatea",
+      "permanent": true
+    },
+    {
+      "source": "/commune/huahine",
+      "destination": "https://farepolynesie.immo/ile/huahine",
+      "permanent": true
+    },
+    {
+      "source": "/commune/tahiti",
+      "destination": "https://farepolynesie.immo/ile/tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/communes/:path*",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/caracteristique/:path*",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/produit/:path*",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/node/:path*",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/node",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/taxonomy/term/:path*",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/luxury-estate/:path*",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/luxury-estate",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/proprietes",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/proprietes-exclusives",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/biens-en-polynesie-francaise",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/tous-les-appartements",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/toutes-les-villas",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/dernieres-acquisition",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/immobilier-de-luxe-en-polynesie",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/mmobilier-de-luxe-en-polynesie",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/immobilier-iles-polynesie",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/filter/tips",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/hotel",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/commerces",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/en-vente",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/maisons-neuves",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/achat-immobilier",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/recherche-location-maison-appartement-tahiti-moorea",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/programme-neuf/:path*",
+      "destination": "https://farepolynesie.immo/neuf",
+      "permanent": true
+    },
+    {
+      "source": "/programme-neuf",
+      "destination": "https://farepolynesie.immo/neuf",
+      "permanent": true
+    },
+    {
+      "source": "/programme-neuf-vefa-tahiti",
+      "destination": "https://farepolynesie.immo/neuf",
+      "permanent": true
+    },
+    {
+      "source": "/actualites-du-cabinet-levy",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:path*",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/tag",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/guide-et-conseils-immobiliers",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/conseils-juridiques-fiscalite",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/lexique-immobilier",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/vivre-a-tahiti",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/vie-locale-quartiers",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/comment-ceder-des-parts-de-sarl",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/comment-est-calcule-limpot-sur-la-plus-value-immobiliere",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/tout-savoir-sur-le-bail-commercial",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/home-staging-vendre-son-logement",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/les-acteurs-intervenant-dans-un-acte-dachat-immobilier",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/laide-a-linvestissement-des-menages-va-etre-elargie-pour-lannee-2021",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/financement-credit-immobilier-tahiti",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/investissement-locatif-tahiti",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/investir-a-tahiti-bora-bora",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/projets-renovation",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/presse",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/quest-ce-que-lalerte-email-immobiliere-tahiti-moorea-polynesie-francaise",
+      "destination": "https://farepolynesie.immo/conseils",
+      "permanent": true
+    },
+    {
+      "source": "/estimations-marche-immobilier",
+      "destination": "https://farepolynesie.immo/estimation",
+      "permanent": true
+    },
+    {
+      "source": "/estimation-de-votre-bien-immobilier-pour-preparer-la-mise-en-vente",
+      "destination": "https://farepolynesie.immo/estimation",
+      "permanent": true
+    },
+    {
+      "source": "/estimations-immobilieres-realisees-par-un-expert-de-votre-quartier-a-tahiti-moorea-en-polynesie-francaise",
+      "destination": "https://farepolynesie.immo/estimation",
+      "permanent": true
+    },
+    {
+      "source": "/le-cabinet/estimation",
+      "destination": "https://farepolynesie.immo/estimation",
+      "permanent": true
+    },
+    {
+      "source": "/vendre-bien-tahiti-polynesie-francaise",
+      "destination": "https://farepolynesie.immo/vendre",
+      "permanent": true
+    },
+    {
+      "source": "/vous-vendez-votre-maison-a-tahiti-confiez-nous-cette-mission",
+      "destination": "https://farepolynesie.immo/vendre",
+      "permanent": true
+    },
+    {
+      "source": "/vous-vendez-votre-terrain-a-tahiti-confiez-nous-cette-mission",
+      "destination": "https://farepolynesie.immo/vendre",
+      "permanent": true
+    },
+    {
+      "source": "/location-gestion-locative",
+      "destination": "https://farepolynesie.immo/conseils/gestion-locative-tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/votre-gestion-locative-au-meilleur-prix",
+      "destination": "https://farepolynesie.immo/conseils/gestion-locative-tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/gestion-locative-louez-votre-logement-en-un-eclair-en-toute-securite",
+      "destination": "https://farepolynesie.immo/conseils/gestion-locative-tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/agent/:path*",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/agent",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/agence/:path*",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/auteur/:path*",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/christiane-pea",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/julien-kohumoetini",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/yasmina-moux",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/teiva-brothers",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/sebastien-maradan",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/maitua-kautai",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/tehotu-levy",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/recrutement",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/jobs",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/recrutement-:path*",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/conseiller-immobilier-h-f-:path*",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/recherche-conseiller-en-immobilier-h-f-a-raiatea",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/alerte-email",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/inscription",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/user/login",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/user/register",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/user/password",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/cabinet-levy-sur-john-taylor-immobilier-international",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/bienvenue",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap-html",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/cgi-sys/:path*",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/international/:path*",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/international",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/nouvelle-caledonie:path*",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/thailande:path*",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/urgent-recherche-appartement-a-louer-tahiti",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/urgent-recherche-maison-a-louer-tahiti",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/page/:path*",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
+      "source": "/contactez-nous",
+      "destination": "https://farepolynesie.immo/",
+      "permanent": true
+    },
+    {
       "source": "/index.php/actualites/:path*",
       "destination": "https://farepolynesie.immo/conseils",
       "permanent": true
@@ -294,6 +919,66 @@
     {
       "source": "/index.php/commune/:path*",
       "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/type-bien/:path*",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/zone/:path*",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/location/:path*",
+      "destination": "https://farepolynesie.immo/louer",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/location-tahiti-en-polynesie",
+      "destination": "https://farepolynesie.immo/louer",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/vente/:path*",
+      "destination": "https://farepolynesie.immo/acheter",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/achatvente-tahiti-en-polynesie",
+      "destination": "https://farepolynesie.immo/acheter",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/achat-en-programme-neuf-tahiti-et-en-polynesie",
+      "destination": "https://farepolynesie.immo/neuf",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/recherche:path*",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/taxonomy/:path*",
+      "destination": "https://farepolynesie.immo/biens",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/estimation",
+      "destination": "https://farepolynesie.immo/estimation",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/le-cabinet/gestion",
+      "destination": "https://farepolynesie.immo/conseils/gestion-locative-tahiti",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/user/:path*",
+      "destination": "https://farepolynesie.immo/",
       "permanent": true
     },
     {
